@@ -1,1 +1,17 @@
 /* Place CSS styles here */
+.p1 { 
+    color: gold;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:  10px;
+    padding-right: 10px;
+    border: 1px black;
+    border-radius: 8px;
+    transition: .25s all ease;
+}
+
+.p1:hover {
+color: black;
+background-color: gold;
+}
