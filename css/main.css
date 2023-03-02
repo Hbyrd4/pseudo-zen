@@ -1,7 +1,24 @@
 /* Place CSS styles here */
-.p1 { 
+.prim { 
     color: gold;
     background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:  10px;
+    padding-right: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: .30s all ease;
+}
+
+.prim:hover {
+color: black;
+background-color: gold;
+}
+
+.sec {
+    color: rgb(64, 197, 227);
+    background-color: rgb(65, 61, 61);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:  10px;
@@ -10,8 +27,8 @@
     border-radius: 8px;
     transition: .25s all ease;
 }
-
-.p1:hover {
-color: black;
-background-color: gold;
+    
+.sec:hover {
+    color: rgb(65, 61, 61);
+    background-color: rgb(64, 197, 227);
 }
