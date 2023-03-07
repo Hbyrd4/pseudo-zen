@@ -1,4 +1,9 @@
 /* Place CSS styles here */
+button:focus{
+    color: yellow;
+
+}
+
 .prim { 
     color: gold;
     background-color: black;
@@ -34,8 +39,8 @@ background-color: gold;
 }
 
 .err {
-    color: rgb(124, 124, 122);
-    background-color: rgb(255, 253, 253);
+    color: rgb(255, 253, 253);
+    background-color: rgb(124, 124, 122);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:  10px;
@@ -46,6 +51,14 @@ background-color: gold;
 }
     
 .err:hover {
-    color: rgb(255, 253, 253);
-    background-color: rgb(124, 124, 122);
+    color: rgb(124, 124, 122);
+    background-color: rgb(255, 253, 253);;
+}
+
+.plink {
+
+}
+
+.slink {
+    
 }
