@@ -17,18 +17,35 @@ background-color: gold;
 }
 
 .sec {
-    color: rgb(64, 197, 227);
-    background-color: rgb(65, 61, 61);
+    color: rgb(245, 223, 99);
+    background-color: rgb(75, 75, 75);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:  10px;
     padding-right: 10px;
-    border: 1px black;
+    border: 2px solid black;
     border-radius: 8px;
-    transition: .25s all ease;
+    transition: .30s all ease;
 }
     
 .sec:hover {
-    color: rgb(65, 61, 61);
-    background-color: rgb(64, 197, 227);
+    color: rgb(75,75,75);
+    background-color: rgb(245, 223, 99);
+}
+
+.err {
+    color: rgb(124, 124, 122);
+    background-color: rgb(255, 253, 253);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:  10px;
+    padding-right: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: .30s all ease;
+}
+    
+.err:hover {
+    color: rgb(255, 253, 253);
+    background-color: rgb(124, 124, 122);
 }
