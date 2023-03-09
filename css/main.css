@@ -1,4 +1,7 @@
 /* Place CSS styles here */
+body{
+    background-color: rgb(245, 245, 233);
+}
 
 h1,
 h2 {
@@ -9,11 +12,13 @@ h2 {
 .butts {
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .link {
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 button:focus{
@@ -156,13 +161,25 @@ input:required:focus {
 }
 
 @media screen and (max-width: 767px) {
-    body {
+    .butts {
       flex-direction: column;
     }
   }
   
   @media screen and (min-width: 768px) {
-    body {
+    .butts {
+      flex-direction: row;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .link {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .link {
       flex-direction: row;
     }
   }
