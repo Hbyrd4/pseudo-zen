@@ -1,4 +1,5 @@
 /* Place CSS styles here */
+
 button:focus{
     color: blue;
 
@@ -72,19 +73,22 @@ background-color: gold;
 }
 
 .plink {
-    color: green;
+    color: darkgreen;
+    text-decoration: none;
 }
 
 .plink:hover {
-    color: darkgreen
+    color: lightgreen;
+    text-decoration: underline;
 }
 
 .plink:focus {
  color: olive;
+ text-decoration: underline;
 }
 
 .plink:visited {
-    color: lightgreen;
+    color: blue;
 }
 
 .plink:disabled {
@@ -96,13 +100,42 @@ background-color: gold;
 }
 
 .slink:hover {
-    color: blue
+    color: blue;
 }
 
 .slink:focus {
+    color: aquamarine;
+}
 
+.slink:visited {
+    color: brown;
 }
 
 .slink:disabled {
     color: gray;
 }
+
+input:hover {
+    color: rgb(227, 176, 82);
+}
+
+input:focus {
+    color: rgb(151, 98, 13) ;
+}
+
+input:disabled {
+    color: gray;
+}
+
+input:required {
+    color: red ;
+}
+
+input:required:hover {
+    color: rgb(165, 108, 2);
+}
+
+input:required:focus {
+    color: rgb(178, 152, 104);
+}
+
