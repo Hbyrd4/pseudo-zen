@@ -1,6 +1,6 @@
 /* Place CSS styles here */
 button:focus{
-    color: yellow;
+    color: blue;
 
 }
 
@@ -21,9 +21,15 @@ color: black;
 background-color: gold;
 }
 
+.prim:disabled {
+    color: black;
+    background-color: gray;
+    
+}
+
 .sec {
-    color: rgb(245, 223, 99);
-    background-color: rgb(75, 75, 75);
+    color: lightskyblue;
+    background-color: whitesmoke;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:  10px;
@@ -34,8 +40,13 @@ background-color: gold;
 }
     
 .sec:hover {
-    color: rgb(75,75,75);
-    background-color: rgb(245, 223, 99);
+    color: whitesmoke;
+    background-color:lightskyblue;
+}
+
+.sec:disabled {
+    color: black;
+    background-color: gray;
 }
 
 .err {
@@ -55,10 +66,43 @@ background-color: gold;
     background-color: rgb(255, 253, 253);;
 }
 
-.plink {
+.err:disabled {
+    color: black;
+    background-color: gray;
+}
 
+.plink {
+    color: green;
+}
+
+.plink:hover {
+    color: darkgreen
+}
+
+.plink:focus {
+ color: olive;
+}
+
+.plink:visited {
+    color: lightgreen;
+}
+
+.plink:disabled {
+    color: gray;
 }
 
 .slink {
-    
+    color: rgb(38, 172, 216);
+}
+
+.slink:hover {
+    color: blue
+}
+
+.slink:focus {
+
+}
+
+.slink:disabled {
+    color: gray;
 }
