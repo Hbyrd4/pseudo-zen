@@ -1,5 +1,21 @@
 /* Place CSS styles here */
 
+h1,
+h2 {
+    display: flex; 
+    justify-content: center;  
+}
+
+.butts {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
 button:focus{
     color: blue;
 
@@ -139,3 +155,14 @@ input:required:focus {
     color: rgb(178, 152, 104);
 }
 
+@media screen and (max-width: 767px) {
+    body {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    body {
+      flex-direction: row;
+    }
+  }
