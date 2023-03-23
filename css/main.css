@@ -22,7 +22,7 @@ h2 {
 }
 
 button:focus{
-    color: blue;
+    color: palevioletred;
 
 }
 
@@ -41,6 +41,7 @@ button:focus{
 .prim:hover {
 color: black;
 background-color: gold;
+cursor: pointer;
 }
 
 .prim:disabled {
@@ -64,6 +65,7 @@ background-color: gold;
 .sec:hover {
     color: whitesmoke;
     background-color:lightskyblue;
+    cursor: pointer;
 }
 
 .sec:disabled {
@@ -72,8 +74,8 @@ background-color: gold;
 }
 
 .err {
-    color: rgb(255, 253, 253);
-    background-color: rgb(124, 124, 122);
+    color: red;
+    background-color: rgb(94, 94, 91);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:  10px;
@@ -84,13 +86,23 @@ background-color: gold;
 }
     
 .err:hover {
-    color: rgb(124, 124, 122);
-    background-color: rgb(255, 253, 253);;
+    color: rgb(94, 94, 91);
+    background-color: red;
+    cursor: pointer;
 }
 
 .err:disabled {
     color: black;
     background-color: gray;
+}
+
+.disabled {
+    color: black;
+    background-color: gray;
+}
+
+.disabled:hover {
+    cursor: not-allowed;
 }
 
 .plink {
